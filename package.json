@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@techassi/vue-youtube-iframe": "^1.0.6",
     "@hcaptcha/vue3-hcaptcha": "^1.2.1",
+    "@techassi/vue-youtube-iframe": "^1.0.6",
     "@vueuse/core": "^9.13.0",
-    "axios": "~1.5.0",
+    "axios": "^1.7.7",
     "braintree-web-drop-in": "^1.36.1",
     "element-plus": "^2.3.3",
     "pinia": "^2.0.36",

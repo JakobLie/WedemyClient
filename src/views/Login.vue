@@ -135,6 +135,8 @@ async function handleLogin() {
 async function submitToServer(payload: LoginRequest) {
   const res = await AuthService.loginUser({ ...payload });
   const user: UserDto = res.data.userInfo;
+  // logging for auth check
+  console.log(user);
   store.$patch({
     id: user.id,
     fullname: user.fullname,
