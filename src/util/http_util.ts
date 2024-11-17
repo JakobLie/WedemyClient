@@ -9,7 +9,7 @@ function getServiceUrl(): string {
 
 /** global axios instance */
 export const httpUtil = axios.create({
-  baseURL: getServiceUrl(),
+  baseURL: BACKEND_URL, // getServiceUrl(),
   headers: {
     "Content-Type": "application/json;charset=utf-8",
     "X-Requested-With": "XMLHttpRequest"
